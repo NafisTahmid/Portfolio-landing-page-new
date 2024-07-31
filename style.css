@@ -314,6 +314,8 @@ p {
     align-items: center;
 }
 
+
+
 @media (min-width: 576px) {
     .container {
         max-width: 540px;
@@ -325,7 +327,7 @@ p {
     h1 {
         font-size:30px;
     }
-
+   
    
 }
 
@@ -393,7 +395,15 @@ p {
         padding-left: 40%;
     }
 
-    
+    img.hero-section-img {
+        display: none;
+    }
 
  
+}
+
+@media(max-width: 768px) {
+    img.img-fluid.special-img.hero-section-img {
+        padding-left: 68px;
+    }
 }
