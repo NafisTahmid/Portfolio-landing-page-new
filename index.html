@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- GOOGLE FONT (EPILOGUE) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+   
+    <!-- Navbar section -->
+     <nav>
+
+        <div class="nav-links">
+            <ul>
+                <li class="hidebar"><a href="">Logo</a></li>
+                <li class="hidebar"><a href="">About</a></li>
+                <li class="hidebar"><a href="">Work</a></li>
+                <li class="hidebar"><a href="">Contact</a></li>
+                <li class="menuBar" onclick=showSidebar()><a href=""><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+               
+            </ul>
+
+            <ul class="sidebar">
+                <li onclick=closeMenu()><a href=""><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Work</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </div>
+     </nav>
+
+     <div class="container first-section">
+          <!-- Hero Section -->
+            <div class="row section-1-container">
+                <div class="col">
+
+                    <div class="main-text-container">
+                        <p class="branding-text">Branding or Image making</p>
+                        <h1 class="heading-text">My awesome <br> portfolio</h1>
+                        <br>
+                        <small class="heading-small-text">And I made it myself! Yes, In Figma with Anima</small>
+                    </div>
+               
+                </div>
+                <div class="col">
+                    <img src="Images/hero-image.png" class="img-fluid special-img hero-section-img" alt="">
+                </div>
+            </div>
+
+            <br>
+
+            <div class="first-horizontal-row">
+                <hr>
+
+            </div>
+
+            <!-- Content 1 section -->
+             <div class="row center-items">
+                <div class="col-md-5">
+                    <img src="Images/behance-footer.png" alt="" class="content-1-image special-img img-fluid">
+                </div>
+                <div class="col-md-5">
+                    <img src="Images/Google.png" alt="" class="content-1-image special-img img-fluid">
+                </div>
+                <div class="col-md-5">
+                    <img src="Images/Apple.png" alt="" class="content-1-image special-img img-fluid">
+                </div>
+                <div class="col-md-5">
+                    <img src="Images/Dribbble.png" alt="" class="content-1-image special-img img-fluid">
+                </div>
+                <div class="col-md-5">
+                    <img src="Images/Awwwards.png" alt="" class="content-1-image special-img img-fluid">
+                </div>
+             </div>
+
+             <hr>
+
+             <!-- Content Section 2 -->
+              <div class="row center-items-2">
+                <div class="col-md-4">
+                    <div class="content-2-container">
+                        <img src="Images/image-placeholder-1.png" alt="" class="img-fluid special-img">
+                        <h3 class="container-2-heading">Product Design</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur.</p>
+                        
+                    </div>
+                   
+                   
+                </div>
+                <div class="col-md-4">
+                    <div class="content-2-container">
+                        <img src="Images/image-placeholder-2.png" alt="" class="img-fluid special-img">
+                        <h3 class="container-2-heading">Product Design</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    
+                    </div>
+                   
+                   
+                </div>
+                <div class="col-md-4">
+                    <div class="content-2-container">
+                        <img src="Images/image-placeholder-3.png" alt="" class="img-fluid special-img">
+                        <h3 class="container-2-heading">Product Design</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur.</p>
+                       
+                    </div>
+                    
+                  
+                </div>
+              </div>
+
+              <!-- Content 3 Section -->
+              <h3 class="content-3-heading">Latest Works</h3>
+               <div class="row center-items-3">
+                    
+
+                    <div class="col-md-4">
+                        <div class="content-3-container">
+
+                            <img src="Images/latest-work-1.png" alt="" class="img-fluid special-img">
+                            <h4 class="content-3-work-names">Lorem, ipsum.</h4>
+                            <br>
+                            <small>Lorem ipsum dolor sit.</small>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="content-3-container">
+
+                            <img src="Images/latest-work-2.png" alt="" class="img-fluid special-img">
+                            <h4 class="content-3-work-names">Lorem, ipsum.</h4>
+                            <br>
+                            <small>Lorem ipsum dolor sit.</small>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="content-3-container">
+
+                            <img src="Images/latest-work-3.png" alt="" class="img-fluid special-img">
+                            <h4 class="content-3-work-names">Lorem, ipsum.</h4>
+                            <br>
+                            <small>Lorem ipsum dolor sit.</small>
+                        </div>
+                    </div>
+               </div>
+
+               <div class="row center-items-3-updated">
+                <div class="col-md-4">
+                    <div class="content-3-container">
+
+                        <img src="Images/latest-work-4.png" alt="" class="img-fluid special-img">
+                        <h4 class="content-3-work-names">Lorem, ipsum.</h4>
+                        <br>
+                        <small>Lorem ipsum dolor sit.</small>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="content-3-container">
+
+                        <img src="Images/latest-work-5.png" alt="" class="img-fluid special-img">
+                        <h4 class="content-3-work-names">Lorem, ipsum.</h4>
+                        <br>
+                        <small>Lorem ipsum dolor sit.</small>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="content-3-container">
+
+                        <img src="Images/latest-work-6.png" alt="" class="img-fluid special-img">
+                        <h4 class="content-3-work-names">Lorem, ipsum.</h4>
+                        <br>
+                        <small>Lorem ipsum dolor sit.</small>
+                    </div>
+                </div>
+               </div>
+
+               <!-- Content 4 Section -->
+                <h3 class="content-4-heading">Clients</h3>
+
+                <div class="row center-items-4">
+                    <div class="col-md-4">
+                        <div class="content-4-section">
+                            <h4 class="content-4-heading-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum, quidem!</h4>
+
+                            <div class="d-flex">
+                                <img src="Images/author-image-1.png" class="img-fluid" alt="">
+                                <div class="user-feedback-section">
+                                    <img src="Images/rate-stars.png" class="img-fluid" alt="">
+                                    <p>Lorem, ipsum dolor.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-4">
+                        <div class="content-4-section">
+                            <h4 class="content-4-heading-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum, quidem!</h4>
+
+                            <div class="d-flex">
+                                <img src="Images/author-image-2.png" class="img-fluid" alt="">
+                                <div class="user-feedback-section">
+                                    <img src="Images/rate-stars.png" class="img-fluid" alt="">
+                                    <p>Lorem, ipsum dolor.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-4">
+                        <div class="content-4-section">
+                            <h4 class="content-4-heading-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum, quidem!</h4>
+
+                            <div class="d-flex">
+                                <img src="Images/author-image-3.png" class="img-fluid" alt="">
+                                <div class="user-feedback-section">
+                                    <img src="Images/rate-stars.png" class="img-fluid" alt="">
+                                    <p>Lorem, ipsum dolor.</p>
+                                </div>
+                            </div>
+                        </div>    
+                    </div>
+                    
+                </div>
+
+                <hr class="section-4-end">
+
+                <!-- Section 5 -->
+                 <div class="row">
+
+                    <div class="col-md-6">
+                        <h3 class="footer-heading-text">Let's Build Together</h3>
+                        <p class="footer-description-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis unde quod maxime officia natus, iusto quas laboriosam obcaecati molestias nobis, voluptatibus dolorum eum nulla sequi atque, iure tempora porro ad!</p>
+                        
+                        <div class="d-flex-2">
+                            <img src="Images/discord-footer.png" class="img-fluid " alt="">
+                            <img src="Images/facebook-footer.png" class="img-fluid " alt="">
+                            <img src="Images/dribbble-footer.png" class="img-fluid " alt="">
+                            <img src="Images/nstagram-footer.png" class="img-fluid " alt="">
+                            <img src="Images/behance-footer.png" class="img-fluid " alt="">
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <input type="text" name="" id="" placeholder="Name">
+                        <br>
+                        <br>
+                        <input type="text" name="" id="" placeholder="Email">
+                        <br>
+                        <br>
+                        <textarea name="" id="" rows="10" cols="15" placeholder="Type your message here"></textarea>
+                        <br>
+                        <br>
+                        <button class="footer-button">Submit</button>
+                    </div>
+
+                 </div>
+      </div>
+
+      <script>
+
+            function showSidebar() {
+                event.preventDefault();
+                let showBar = document.querySelector(".sidebar");
+                showBar.style.display = "block";    
+            }
+            function closeMenu() {
+                event.preventDefault();
+                let hideBar = document.querySelector(".sidebar");
+                hideBar.style.display = "none";
+
+            }
+      </script>
+</body>
+</html>
